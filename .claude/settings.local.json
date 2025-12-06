@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run python:*)",
+      "Bash(curl:*)",
+      "Bash(python -m json.tool:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__openmemory__search_memory",
+      "Bash(uv run pytest:*)",
+      "mcp__openmemory__add_memories"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
